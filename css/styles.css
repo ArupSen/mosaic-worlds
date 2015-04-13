@@ -115,16 +115,21 @@ h1 {
 
 /* customize nav style */
 .navbar-custom {
-  background-color: #2e2e2e;
+  background-color: #DFDFDF;
   font-weight:700;
   text-transform:uppercase;
   border-width:0;
 }
 .navbar-custom  .navbar-nav>li>a {
-  color: #ddd;
+  color: #999;
 }
 .navbar-custom  .navbar-nav li>a:hover, .navbar-nav li .open, .navbar-custom .navbar-nav .active a  {
-  background-color: #000;
+  background-color: #fff;
+  color: #999;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+  color: #999;
+  background-color: #fff;
 }
 .navbar-custom .dropdown-menu{
   right:0;
